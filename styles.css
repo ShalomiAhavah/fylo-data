@@ -196,9 +196,9 @@ color: hsl(229, 7%, 55%);
     border-radius: 15px
 }
 
-.progressBarDot {
-    height: 1.4vmin;
-    width: 1.4vmin;
+#progressBarDot {
+    height: 14vmin;
+    width: 14vmin;
     border-radius: 50%;
     background-color: #fffffe;
 }
