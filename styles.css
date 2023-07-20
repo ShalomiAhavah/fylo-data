@@ -23,6 +23,9 @@ font-family: 'Raleway', sans-serif;
     body {
       background-image:url("images/bg-desktop.png");
     }
+    .white {
+        margin-left: 42vmin;
+    }
   }
 @media (min-width: 320px) and (max-width: 767px) {
     body {
@@ -60,7 +63,7 @@ flex-wrap: wrap;
     background-color:#1e2c69;
     margin-top: 6vmin;
     border-radius: 10px;
-    padding: 5vmin 0 0 0;
+    padding:5vmin 0 0 0;
     color: #fffffe;
     display: flex;
     flex-direction: column;
@@ -77,7 +80,6 @@ flex-wrap: wrap;
   flex-direction: row;
   /* position: absolute; */
   margin-top: -10vmin;
-  margin-left: 42vmin;
   font-family: 'Raleway', sans-serif;
   position: absolute;
 }
@@ -138,10 +140,68 @@ scale: 80%;
   #upload {
 scale: 80%;
   }
+  #leftText {
+    width: 60.5vmin;
+    text-align: left;
+    display: flex;
+    margin: 0 auto;
+}
+  .theText {
+    font-size: 14px;
+    font-weight: 400;
+    margin:2vmin 0 0 2vmin ;
+    color: hsl(229, 8%, 74%);
+    }
+    .otherText {
+        font-weight:700;
+        color: hsl(245, 21%, 90%);
+        font-size: 14px;
+    }
+    
+    .progressBarBG {
+        height: 2.5vmin;
+        width: 57.5vmin;
+        background-color:#151e47;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vmin;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .progressBar {
+        height: 1.6vmin;
+        width: 41vmin;
+        margin: 0 0 0 0.4vmin;
+        background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #progressBarDot {
+        height: 1.4vmin;
+        width: 1.4vmin;
+        border-radius: 50%;
+        background-color: #fffffe;
+        margin-left: 39.5vmin;
+    }
+    
+    #measures {
+        height: 3vmin;
+        width: 57vmin;
+        margin-right: auto;
+        margin-left: auto;
+        display:flex;
+        justify-content: space-between;
+    }
+
 
 @media (min-width: 320px) and (max-width:767px){
     .canvas {
         flex-direction: column;
+        justify-items: center;
     }
     .fylo {
         height:52vmin ;
@@ -152,76 +212,26 @@ scale: 80%;
     }
     .second {
         width: 86vmin;
-        height: 34vmin;
+        height: 45vmin;
     }
     .white {
         height: 20vmin;  
         width: 48vmin;
         background-color: #fffffe;
         border-radius: 13px;
-        margin-top: 20vmin;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 30vmin;
+        margin-left: 20vmin;
         display: flex;
         align-items: center;
       }
-}
+    
 #leftText {
-    width: 60.5vmin;
-    text-align: left;
-    display: flex;
-    margin: 0 auto;
-}
-.theText {
-font-size: 14px;
-font-weight: 400;
-margin:2vmin 0 0 2vmin ;
-color: hsl(229, 8%, 74%);
-}
-.otherText {
-    font-weight:700;
-    color: hsl(245, 21%, 90%);
-    font-size: 14px;
+    font-size: 6px;
 }
 
-.progressBarBG {
-    height: 2.5vmin;
-    width: 57.5vmin;
-    background-color:#151e47;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3vmin;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-
-}
-.progressBar {
-    height: 1.6vmin;
-    width: 41vmin;
-    margin: 0 0 0 0.4vmin;
-    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
 }
 
-#progressBarDot {
-    height: 1.4vmin;
-    width: 1.4vmin;
-    border-radius: 50%;
-    background-color: #fffffe;
-    margin-left: 39.5vmin;
-}
 
-#measures {
-    height: 3vmin;
-    width: 57vmin;
-    margin-right: auto;
-    margin-left: auto;
-    display:flex;
-    justify-content: space-between;
-}
 
 .smol {
     font-size: 10px;
