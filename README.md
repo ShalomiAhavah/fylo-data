@@ -11,7 +11,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -70,4 +69,4 @@ I definitely want to expand my knowledge in media queries in the next projects. 
 ## Acknowledgments
 - Thank you Rikus for spending time with me while you were playing WOT and I was coding(: It was good having somone there to complain about.
 - Thank you Hannah too, for enduring my rants about the stupid triangle.
-- Thank you @atif-dev for your help with figuring out how github works
+- Thank you [Atif](https://github.com/atif-dev) for your help with figuring out how github works
