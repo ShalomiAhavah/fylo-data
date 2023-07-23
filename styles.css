@@ -1,5 +1,5 @@
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 46%, 78%); }
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -75,7 +75,6 @@ flex-wrap: wrap;
     margin-top: -10vmin;
     margin-left: 40vmin;
     position: absolute;
-    /* background-color: #d1d7ff; */
 }
 .white {
   height: 8vmin;  
@@ -250,7 +249,6 @@ scale: 80%;
         width: 48vmin;
         background-color: #fffffe;
         border-radius: 13px;
-        /* margin-top: 25vmin; */
         display: flex;
         flex-direction: row;
         align-items: center;
