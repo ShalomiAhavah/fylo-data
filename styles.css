@@ -51,6 +51,7 @@ flex-wrap: wrap;
     border-radius: 8px 100px 8px 8px;
     margin-right: 3vmin;
     font-family: 'Raleway', sans-serif;
+    margin-top: 2vmin;
 }
   #name {
     font-family: 'Raleway', sans-serif;
@@ -61,33 +62,45 @@ flex-wrap: wrap;
     height: 19vmin;
     width: 68vmin;
     background-color:#1e2c69;
-    margin-top: 6vmin;
+    margin-top: 8vmin;
     border-radius: 10px;
     padding:5vmin 0 0 0;
     color: #fffffe;
     display: flex;
     flex-direction: column;
 }
-
+.bloodyTriangle {
+    height:11.2vmin;
+    width: 22vmin;
+    margin-top: -10vmin;
+    margin-left: 40vmin;
+    position: absolute;
+    /* background-color: #d1d7ff; */
+}
 .white {
   height: 8vmin;  
   width: 22vmin;
   background-color: #fffffe;
   border-radius: 10px;
+  margin: 0;
+  position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: row;
-  /* position: absolute; */
-  margin-top: -10vmin;
+  margin-top: 0vmin;
   font-family: 'Raleway', sans-serif;
-  position: absolute;
 }
-
+#gbLefti {
+    height: 20vmin;
+    width: 48vmin;
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+}
    #gbLeft {
     font-weight: 700;
     font-size: 5vmin;
-    margin-left: -8vmin;
+    margin-left: 4vmin;
     color: #0c122c;
     position: absolute;
    }
@@ -97,7 +110,7 @@ flex-wrap: wrap;
     font-size:10px ;
     position: absolute;
     font-family: 'Raleway', sans-serif;
-    margin: 0 0 0 10vmin;
+    margin: 0 0 0 13vmin;
    }
 
    .triangle {
@@ -106,7 +119,8 @@ flex-wrap: wrap;
     border-style: solid;
     border-width: 0 25px 30px 0;
     border-color: transparent #fffffe transparent transparent;
-    margin: 10.2vmin 0 0 18.3vmin;
+    margin: 10vmin 0 0 12vmin;
+    position: relative;
       }
 
 #logo {
@@ -198,6 +212,11 @@ scale: 80%;
     }
 
 
+    .smol {
+        font-size: 10px;
+        color: #d1d7ff;
+        margin-top: 5px;
+    }
 @media (min-width: 320px) and (max-width:767px){
     .canvas {
         flex-direction: column;
@@ -207,34 +226,105 @@ scale: 80%;
         height:52vmin ;
         width: 86vmin;
         margin-top: -8vmin;
-        margin-bottom: 0%;
+        margin-bottom:0;
         margin-left: 2vmin;
+    }
+    #logo {
+        margin-top: 10vmin;
+        margin-left: -10vmin;
     }
     .second {
         width: 86vmin;
-        height: 45vmin;
+        height: 40vmin;
+        text-align: center;
+        margin-top: 4vmin;
+    }
+    .bloodyTriangle {
+        height: 20vmin;
+        width: 48vmin;
+        background-color: #9fa9d8;
+        margin: 25vmin 10vmin 0 20vmin;
     }
     .white {
         height: 20vmin;  
         width: 48vmin;
         background-color: #fffffe;
         border-radius: 13px;
-        margin-top: 30vmin;
-        margin-left: 20vmin;
+        /* margin-top: 25vmin; */
         display: flex;
+        flex-direction: row;
         align-items: center;
       }
     
 #leftText {
     font-size: 6px;
+    width: 80vmin;
+    text-align: center;
+}
+   .theText {
+    margin-left: auto;
+    margin-right: auto;
+   }
+#gbLefti {
+    height: 20vmin;
+    width: 48vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+}
+#gbLeft {
+    font-size: 45px;
+    position: absolute;
+    margin-right: 20vmin;
+}
+#left {
+    margin-left: 22vmin;
+    position: absolute;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
+.triangle {
+    display: none;
+}
+.progressBarBG {
+    height: 5vmin;
+    width: 68vmin;
+}
+.progressBar {
+    height: 3.5vmin;
+    width: 50vmin;
+    padding-right: .4vmin;
+    display: flex;
+    justify-content: end;
+}
+#progressBarDot {
+    height: 2.8vmin;
+    width: 2.8vmin;
+
+}
+.icons {
+    margin-left: 10vmin;
+    width: 60%;
+}
+.iconbg {
+    width: 46px;
+    height: 45px;
 }
 
+#document, #folder, #upload {
+    scale: 93%;
+}
 
-
+#measures {
+    width: 68vmin;
+}
 .smol {
-    font-size: 10px;
-    color: #d1d7ff;
-    margin-top: 5px;
+    font-size: 12px;
 }
+
+}
+
+
