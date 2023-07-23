@@ -29,7 +29,7 @@ Users should be able to:
   * something that was irritating me a bit is how the background on desktop view moves as the screen size changes.
 
 ### Screenshot
-screenshot.jpg
+![screenshot](screenshot.jpg)
 
 ### Links
 
@@ -70,4 +70,4 @@ I definitely want to expand my knowledge in media queries in the next projects. 
 ## Acknowledgments
 - Thank you Rikus for spending time with me while you were playing WOT and I was coding(: It was good having somone there to complain about.
 - Thank you Hannah too, for enduring my rants about the stupid triangle.
--Thank you Atif for your help with figuring out how github works lol
+- Thank you @atif-dev for your help with figuring out how github works
