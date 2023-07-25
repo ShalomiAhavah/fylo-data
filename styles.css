@@ -80,7 +80,7 @@ flex-wrap: wrap;
   height: 8vmin;  
   width: 22vmin;
   background-color: #fffffe;
-  border-radius: 10px;
+  border-radius: 0.5rem 0.5rem 0rem 0.5rem;
   margin: 0;
   position: absolute;
   display: flex;
@@ -243,6 +243,7 @@ scale: 80%;
         width: 48vmin;
         background-color: #9fa9d8;
         margin: 25vmin 10vmin 0 20vmin;
+        border-radius: 13px;
     }
     .white {
         height: 20vmin;  
